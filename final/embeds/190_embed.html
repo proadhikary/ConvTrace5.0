@@ -1,0 +1,882 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AIIMSD/PSY/2025/AI00190.csv</title>
+    <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* Hide body scroll bars */
+        }
+        .chat {
+            overflow-y: scroll;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .bubble {
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            max-width: 80%;
+            word-wrap: break-word;
+        }
+        .therapist {
+            background-color: #007bff;
+            color: white;
+            align-self: flex-start;
+        }
+        .patient {
+            background-color: #28a745;
+            color: white;
+            align-self: flex-end;
+        }
+    </style>
+</head>
+<body>
+    <div class="chat">
+
+                <div class="bubble therapist"><b>Therapist</b><br>Hello Alyssa.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Hello.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>It's good to see you today.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>I'm glad you came to see me.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Okay.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>So, tell me a little bit more about why you're here.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Um, well I guess I have anger issues.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>I just find myself getting mad all the time.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>And uh, feeling all the trouble over it.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>People can't handle it so, I'm gonna come here for it.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Okay.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>So, which way did you come here for it?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>The courts.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Okay.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Okay.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Got it.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>So, yeah I'm not really, I don't really want to be here but.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>So, I'm not excited about being here.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Yeah.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Yeah, I hear that.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Well, what is your objective?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>What do you want out of this today?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Um, I mean I know, I'm probably a lot angrier than the average person.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>So, I mean people do a lot of things to make me mad.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>So, I guess that's like a better way to not be so mad all the time.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Okay.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>And maybe manage that a little bit better.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Yeah.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Okay.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Tell me, um, is it school when you're getting mad?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Is it home when you're getting mad?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Is it friends?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>So, tell me about that little bit.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Um, just with my friends I'm cool.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>It's just definitely at home with my mom.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>We fight almost every day.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>And at school I get, I get the teachers.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>So, I get like detention and stuff like that.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Okay.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Okay.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Okay.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>So, before we get into this a little bit, I'd like to tell you a little bit about your brain.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Okay?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Okay.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Have you ever heard of the amygdala?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>No.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Yeah.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>When you get into high school, you're going to know about this in advance, but you're going to learn about this in high school science.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>So, your amygdala is like right here at the base of your brain back here.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>And it's known as the alarm center.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>So, you think about pulling an alarm, you know, an alarm is going off in your brain.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>And that alarm normally it indicates fight, flight, or freeze.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>So, it makes you want to fight, fight back, right?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>It makes you want to freeze, you just kind of panic, freeze, don't know what you do.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Or flight, which means get out of there, you know, get away.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Get away.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Alright?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>So, that's kind of what your brain, that's the alarm system, that's kind of your brain.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>So, let's think about some situations when you're in these angry situations.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>And let's just kind of step through them.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>So, give me an example, really specific of maybe two.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>When the alarm is going off and you are really angry.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Yeah, I'm definitely a fighter.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Okay, you're a fighter.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Yeah.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Alright.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Because just thinking, just yesterday with my mom, she told me to do this, which I was going to do.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>I just wanted the show to end.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>She kept yelling at me to do it.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>And I didn't like the way she was yelling at me.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>And I just wanted to do like I was going to do it.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Because she would just shut up about it.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>So, I mean it just pissed me off.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>So, I started yelling at her and she started yelling at me.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>And then a little brother came in, it was just the whole family.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>And everyone was just yelling at me.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>And I don't remember all the details, but I just remember I ended up punching a wall.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Okay.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>That was just yesterday.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Okay, that was just yesterday.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Okay.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Alright.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>So, the situation, mom asked you to do something, you were kind of in the middle of something, she got past your knee and you started yelling, she started yelling, it starts escalating, you punch a wall.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Okay.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Okay?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Okay.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>I got that situation.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Tell me about a situation at school where your alarm center is like going off.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>My history teacher, sometimes just looking at her, she just has this attitude, she's not walking in.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>And then, but I mean it's such a boring teacher, so I tend to sleep in class and I can't help it.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>And then she'll call me out for the whole class.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>And it just makes me mad.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>And we'll start going back and forth saying stuff and it goes, I end up cussing her out.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>And that's when I had to go to detention.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Mm-hmm.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Mm-hmm.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>I see.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Okay.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>So you're in class, teacher's calling you out, and you're just wondering if a lot of anger and cursing get you in the nice place.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Okay.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Okay.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Jane, good example.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Is there any time when there's anxiety that's happening before the anger comes out?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>When you're in bad anxiety.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Yeah.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Like maybe, yeah, if you ever get anxious where you just kind of freeze, or yours are more of a reactive of a fight, of a lash out, of a get it out.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>That's kind of your response.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>I don't want to feel something, I have to get it out.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Okay.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>I can't even think of a time when I actually stop to think.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Okay.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Okay.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Okay.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Okay.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>I think that's good.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Well, I want you to, it's kind of helpful, I think, to understand a little bit about what's going on in your brain, and then you can maybe help monitor it, help control it, help manage it a little bit better.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Okay.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>So let's, I'd like to take you through an example of something.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>It's called, and it's a way of, it's called wise mind.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Okay.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>You're trying to be very conscientious about what's going on around you, how you're feeling, and how you're going to react.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Instead of just reacting, when that alarm goes off, you're going to think about it, name it, and then react.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Hopefully, maybe we can get a little bit more control on anger reactions coming.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Yeah.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>And I need that.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Okay.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>I don't want to see myself being too good at it, but.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Okay.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Well, you know what, Alyssa?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Knowing that you need that, just saying, I need that, that's a really big step.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>It really is.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Some people don't even acknowledge that they need it, don't want to acknowledge it, don't care to acknowledge it, and they're not going to really get any, not going to change.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>But you're here.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Maybe you don't want to be here.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>But I'm hearing you say that you want to make a change, and that's really huge, because I think you want things to be different for yourself, it sounds like.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>I mean.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Yeah.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>But also, just watch people with something messing with them.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Okay.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Okay.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>All right.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Well, there's a desire there, I see, and I appreciate that, and that's great.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>And there are lots of different techniques for this, and I'm just going to offer one today, and then you can practice it all week, and then when we talk next week, we'll kind of see how you are with that, and if it's not working for you, we'll make modifications, we might change this, okay?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Thank you.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Okay.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>And this is a technique where you can do it at school, at home, and it only takes about one minute.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Sometimes we don't have a lot of time.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>You know, it's great when you can take 15 minutes to calm down, maybe you're going to bed at night, and you're doing something that makes you calm down, and it's quiet, but a lot of time, in the heat of the moment, we don't have a lot of time.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Or when you feel that anger rising, there's not a lot of time, all right?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>It happens.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>It happens a lot.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Okay.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>This little procedure is called STOP.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>S-T-O-P.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>All right?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>It's an acronym, S-T-O-P.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>So S-T-O-P.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>So it means, the first, the S, is to stop.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>So, for example, you're watching TV, and your mom says, Alyssa, can you do this, please?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>All right.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Right then and there, you're going to say, okay, stop, and then you're going to take a breath.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Okay?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>You're going to breathe in, breathe deeply, and you're going to breathe out.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Just like take two deep breaths, and think about your breathing.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Breathe in, and breathe out.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Okay?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>So the T is for take a breath.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>All right?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Take a breath.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>All right.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>And when you're taking a breath, think about, you know, your brain really needs a lot of oxygen.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>So when you're breathing in, you're breathing oxygen into your lungs, gets into your blood, gets to your brain.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>You're getting a lot of oxygen in your brain, which really helps you think better.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>All right?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>So you're breathing in, getting that oxygen right there.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>All right.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>The O means observe.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>What is going on around you right now?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>All right?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>So in this situation, your mom asks you to do the dishes.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>You're watching a program.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>All right?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>You'd like to finish the program, I think I heard you say, and then you're going to do the dishes.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>That's how you would like it.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>It may not be how mom would like it, but you might be able to, if you can kind of get, observe the situation and how you're feeling.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>I'm a little mad.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Mom just asked me to do it.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Doesn't she see I'm like watching a show here?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>All right?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>So you're observing how you're feeling.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>All right?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Watching the show.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>I'm getting frustrated that she's asking me to do this right now.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Observe it, name it, claim it, and say, okay, that's how I'm feeling right now.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>All right?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>So you're just aware.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>You're observing the situation and how you're feeling.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Okay?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>And then the, so the O is for observe.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>And the P is for proceed.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>That means move forward.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>But something that's going to benefit you.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>That's going to be positive.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>That's going to work for you.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Yelling at your mom.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Is that working for you?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>No.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Get you in trouble.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Get your hand in the wall.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>You might get hurt.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Moving forward, yelling at your mom's not working for you too well, is it?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>No.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Okay.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>So we're going to proceed with something that's going to work for you.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>In this situation, do you have an idea that might work for you?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Um, I mean I just talk to her, but it's just so hard to talk to her without yelling.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>But I mean I guess if I stopped, I wouldn't be like quite so mad.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>So I just tell her that.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>I'm going to do it later.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>But I mean I see her get pissed off about that.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>I just want to get that out.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>But it's a good idea though.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>It's a good thought.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>It might be worth a try to say.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>And maybe it's more instead of telling her I'm going to do it later, saying, Mom, I've got ten more minutes with this show.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Here's ten more minutes.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>I'm really interested in this show.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Can I just finish the ten more minutes and then I will do the dishes?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Kind of put it in a question.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>So instead of saying, I'm going to do it later, say, I just got ten more minutes and I really want to finish this show.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Is it okay if I just do the dishes as soon as, in ten minutes when I finish this show?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Does that sound like something that maybe?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Yeah, I mean that's what I said before, but I mean I was kind of, I probably won't have liked the way I was saying it and stuff like that.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Yeah, yeah, I hear that.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Well, I'm glad you can acknowledge that.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>That's really good.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>That's a real big step.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>That's a real big step.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>So let's step through that one more time.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>S-T-O-P.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>The S is for?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Stop.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Yeah, all right, stop.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Before you react, before you respond in anger, you're just going to stop.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>What's the T?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Take a breath.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Exactly.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Take a breath.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>You're getting oxygen into your brain.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>So you can think clearly, rationally.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Take two big breaths.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Three, maybe.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>O.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Observe.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Observe.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>What's going on?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>What's going on in my body, what are my thoughts, what's the situation?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>You know, how am I feeling right now?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Name it, claim it, okay?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>I'm going to press read in here.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>I'm going to finish this.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>All right, and then what's the P?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Proceed.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Proceed, that's right.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Proceed.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>How am I going to go forward in a way that's going to be helpful to me or good for me or benefit me, right?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>So what, in that situation, what's the P going to be?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>What's the proceed going to be?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>How are you going to proceed?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Just top of my mind, like a calmer.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Yeah, in a calm voice.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Ask her, as soon as this program is over, can I do it, mom?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>I really want to finish this, then I promise you I'll do the dishes as soon as this program is over.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Yeah, I'll do it with a compromise.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Yeah, there you go.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>There you go.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>In that situation, very good.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>You're getting a little bit what you want, she's going to get what she wants, it's a great compromise.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Yeah.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Worth a shot?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Worth a try?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Yeah.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Okay.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>I'm just one.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Yeah.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>You know, it takes a lot of time to make a change.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>It really does.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>You've been doing it one way for a long time, and it takes a lot of time to do something different.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>So I want you to be patient with yourself.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>I want you to try this every day, all right?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>And if you can kind of make notes for me, as we can talk about next week, like on Monday I had a fight with my mom, I tried it, it didn't work.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>On Tuesday I had a fight with my mom, it worked a little bit, you know.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>And the more you do this, the better you're going to get, and the more it's going to benefit you.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>All right?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>The more it's going to benefit you.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Yeah, I see it being a little struggle in the beginning.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Absolutely right.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Just the way we talk with each other, it's hard to just stop and zone out and stuff.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>You're right.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>You're right.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Because there's a certain way in the house, and it's going to be, yeah, be patient with yourself.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>And realize this is going to take some time, okay?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Let's think about at school, a situation, if you wanted to take that one situation at school, too, okay?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Say you're in history class.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>You're in history, but you don't get along so well.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>You're in your history class, and she's calling on you, right?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>This is when you get angry.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Is that correct about that?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Yeah.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>How can I stop when she's calling on me?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Like I had to answer that.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Now, is she asking you, so is she saying, okay, Alyssa, tell me the answer to this question?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Is that what she's calling?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Or is she saying Alyssa, wake up, because you're asleep?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>What is she saying?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Yeah, she wants to trick me because she knows I was sleeping and not paying attention, so she asks me that thing,</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>took a question, and obviously I don't know.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Okay.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Okay.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>All right.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>You're going to step through this stop process with that.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>All right.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>So your teacher's going to ask you, Alyssa, why don't you tell us about that?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>All right?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Instead of what's the normal reaction for you?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Your alarm center going off.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>What's the normal reaction for you?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>I don't know, teacher.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Okay.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>All right.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>You're going to try to stop.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>All right?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>You're going to take a breath.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Two breaths.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>You're going to say, all right, how you feeling at that point?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>She's embarrassing me.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>I don't know.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>What else is going on?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Angry.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Okay.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Okay.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Angry.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>She knows I don't know.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>She's just trying to test me.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>She knows I don't know the answer because I'm asleep.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Yeah, she just knows.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>She's been calling, but she's just messing with me.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>She's just messing with me.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>So it's frustrating.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Exactly.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Right.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>So you're naming that.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>All right.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>I'm frustrated.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>She doesn't know the answer.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Why is she calling me?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Okay.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>You're observing what's going on in the situation, but how are you going to proceed in a positive way?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>All right?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Instead of yelling and getting sent out of the room, can you think of a way that might benefit you more?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>It might be to your advantage.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Getting out of the room and going down the hall is not helping you too much.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>So what's a way you can proceed?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>You are frustrated.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>You are maybe a little bit embarrassed.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>You maybe don't know the answer.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>What can you do instead of yell at that teacher and get angry at her?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>What are the other thoughts maybe?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>This is just how I don't know.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Okay.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>I don't know what to say.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Well, that's the truth.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>You might know or you may not know, but that's the truth.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>You can say just simply that.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>I don't know.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Then she's going to go to somebody else, right?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Maybe.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Maybe?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Yeah.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>That would be the hope that she goes to somebody else.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Yeah.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>But for you, you won't be sent out of the room.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>You won't be getting in trouble.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>You won't be in ISS for the day and missing out.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Yeah.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Yeah.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>One objective I want for you in school is for you to get to the next grade.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Get to the next grade.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>You've got to be in that classroom.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Learn a little bit so you can get to the next grade.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Yeah, I'm going to want to.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Yeah.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>That's good.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>You've got a desire to do that.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>So this procedure only takes 45 seconds or so for you to stop, take a few breaths, observe what's going on, kind of name your emotions.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Okay, I'm this and this and this.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>However, don't want to respond with angry words or yelling or cursing because it's not going to benefit me.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Trying to make a change here.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Then I'm going to figure out what is my best tool to proceed that's going to help me.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Work out an arrangement with mom or just tell the teacher you don't know.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Okay.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>And again, be patient with yourself because this type of change takes a while.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Yeah, it's probably going to take a while.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Yeah.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Are you willing to maybe practice this once a day, every day?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>It can either be at home or it can be in the classroom this next week?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Yeah, I know something comes up and it's open to all school models.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Okay.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>I'm going to just try it and see how it works.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>If this, I have a lot of tricks up my sleeve, so if this one isn't working, we can modify it or we can try something else.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>But try this every day and then we'll just kind of talk about it next week and just kind of see how it's going.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Okay.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Okay.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Yeah.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>All right.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Listen, I appreciate you wanting to make change and willing to do something about that.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Okay.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>All right.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>All right.</div>
+                
+    </div>
+</body>
+</html>

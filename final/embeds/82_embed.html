@@ -1,0 +1,448 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AIIMSD/PSY/2025/AI0082.csv</title>
+    <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* Hide body scroll bars */
+        }
+        .chat {
+            overflow-y: scroll;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .bubble {
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            max-width: 80%;
+            word-wrap: break-word;
+        }
+        .therapist {
+            background-color: #007bff;
+            color: white;
+            align-self: flex-start;
+        }
+        .patient {
+            background-color: #28a745;
+            color: white;
+            align-self: flex-end;
+        }
+    </style>
+</head>
+<body>
+    <div class="chat">
+
+                <div class="bubble therapist"><b>Therapist</b><br>Asking children and teens about potential traumas they may have experienced can be challenging, particularly for clinicians who don't have a focus in mental health.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>But we know that these adverse childhood experiences are prevalent and significantly impact lifelong health.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>So it's essential that all pediatric healthcare providers feel comfortable and competent to do a routine screen for these adverse childhood experiences.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>In the previous video we saw demonstrated how a clinician can use the ACE screening questionnaire to interview a parent and determine a child's ACE score.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Dr. Lawson met with 10-year-old Sam and his mom Dana and did a routine physical checkup on Sam and had no concerns for him.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>She was about to finish the interview when Sam's mother raised that he was having difficulties at school and she also noted that there were some stresses at home.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Dr. Lawson interviewed Dana first on her own and gave Sam an ACE score of 3 based on what his mother was reporting.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>She now meets with Sam on his own to ask him the same screening questions and confirm his score.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Hi Sam, thanks for waiting.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>I talked to your mom a little bit about some of the things that were going on at home and school.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>And now I'm going to spend a few minutes with you asking you some questions, the questions I ask all the kids.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Some of them are going to kind of fit for you and some of them might not fit so well.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>But if there's things that you're curious about I'm asking or if you have questions as we're talking then feel free to ask me about why I'm asking something or ask any questions, okay?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>The first thing I wanted to check in about was how have things been going at home?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Oh, okay, I guess.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Okay, you guess?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Yeah.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>And it sounds like there's a lot of things that have happened, lots of stressors and lots of things that have happened.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>How's your mom doing with all of that stuff?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Okay, I guess she's fine.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>She's fine?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Have there ever been a time where you feel like your mom isn't able to get out of bed or do the things that she needs to do?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>No.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>No?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>So she's getting out of bed and she's looking after you?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Most of the time, yeah.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Most of the time?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>What does most of the time mean?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Well, she's mostly doing a lot of, well she's doing a lot of stuff so she's doing things pretty good, I guess.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>What are some of the things that you might think she might do a bit better?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Oh, maybe getting some dinner, maybe?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Because sometimes I just have to get both Cheerios.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>So sometimes you're not having dinner?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Yeah.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>You're having Cheerios for dinner?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Mm-hmm.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>How many times a week would you say that that's happening, that you're having Cheerios for dinner?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Pretty much every day.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Pretty much every day?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Yeah.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>And is your mom having Cheerios with you or are you on your own having Cheerios?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>What's your mom doing?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>I'm mainly by myself.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>You're by yourself having Cheerios?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>And when you go to your fridge and you open it up, is there food in your fridge?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Have you ever had a time where there hasn't been enough food in your fridge?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>No.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Not really.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>So there's food in your fridge?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Unless I ate too much.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Unless you ate too much.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Okay.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>And have you been worried about having food?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Has that ever been a concern of yours?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>It's getting pretty cold outside.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Do you have a coat and winter boots and things to make sure you're all set for the winter?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>No.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>My mom keeps saying that we might go to the mall or go shopping for one, but we never end up doing it because she's too busy with other things.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>So how's your mom been doing?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Okay, I guess.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Pretty good.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Are there ever any times that she seems down or upset for days at a time?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>That she hasn't been getting out of bed?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Or that she seems to be having a really tough time?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>She might be a little bit stressed because of Grandma.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Can you tell me more about what you mean by a little bit stressed?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Well, they've been arguing and yelling a lot.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>So...</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Who has Grandma and Mom?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Yeah.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>They've been arguing and yelling?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Mm-hmm.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Can you tell me a little bit more about that?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Well, they're just arguing about things.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>They're not very nice.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>I haven't listened to it very much.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>I just go to my room.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>So...</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>It's not very nice.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>And when they argue and yell, have there ever been times that you've been afraid that someone might get hurt?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Once, maybe.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Once.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Can you tell me a bit about that time?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Well, they were just getting really mean.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Like, more than they usually would.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Because it's happening quite a bit now.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>But...</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>It wasn't too bad, I guess.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>So the fighting between your Grandma and your Mom, how intense does it get?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Is it arguing or is it yelling, screaming?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>And when they argue and yell, have there been times when anybody's been physical, used their fists or hands?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>No.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>No.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Any other way that they may have physically been fighting?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>No.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>No.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>What about throwing objects or...?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>No.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>No.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>And what happens to you when they're fighting?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Where are you?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>I just go to my room and try to ignore it.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>So you're going to your room?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Yeah.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>And kind of what happens afterwards?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>They kind of just stay away from each other for a while.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Okay.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Stay away from each other.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>So when they're fighting, what I'm hearing is it's words, that they're not physically hurting each other, and it gets pretty scary.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Yeah.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>When people talk to you, has anyone said mean things or hurtful things to you?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Well, sometimes my Grandma's criticizing me a little bit.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Like she'll tell me I'm not doing something right, but then won't help me with it.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Like won't explain it.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>So you're feeling criticized by Grandma?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>What about Mom?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Has she ever said mean or hurtful things to you?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>No.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>No.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Sam, has anybody touched your body in an inappropriate way or a way that you didn't like?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>What do you mean?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Has anyone touched your private parts or touched you in a sexual way?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>No.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Sam, does anybody in your house ever hit or spank you?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>No.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>What about hurting your body?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Has anyone hurt your body?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>No.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>So when I say hurt, I mean things like hitting, kicking, punching, scratching.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>No.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>So no one's hurt you sexually or physically?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>No.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>With anyone in your house, has anyone been drinking or have you ever been worried about people drinking too much or getting drunk?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>No.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>No?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>What about other drugs?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>No.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>No?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>So you don't have any worries about your parents using drugs or alcohol?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>No.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>What about Grandma?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Anybody else in your family that you're worried about in that way?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>No.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>So Sam, how do you feel in your close relationships?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Do you feel loved and cared about and special?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>No.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>You're shrugging.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>What's that mean?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Well, my mom pays more attention to my little brother and then when I try to talk to my mom if I want something, she won't really listen that well.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>She just kind of keeps doing what she's doing.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>And then might later ask me again, what did you want?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Not a lot though, really, at any time.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>How would you do that?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>So you're not feeling loved?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Is there any place in your life with any adults or with anyone that you're feeling loved?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>I'd like to be in my room.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>I don't really have anyone else, no.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>So if you had a problem or you were hurt in some way or something was happening, who would you go to for help or what would you do?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>I wouldn't have anybody.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>I'd just go to my room and think.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>I just like being in my room sometimes.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>And has anybody in your family ever been in jail or in prison?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>No.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>So the stressors in your house and what's going on making your mom not be there for you as much.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>What do you think are some of those stressful things?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Well, probably because my grandma's fighting with her a lot and also my dad moving away because they were divorced a year ago.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Your mom told me that your dad and your mom aren't together anymore and that he's moved out to DC.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Do you see your dad?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>No.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>No.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>When was the last time you saw him?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>A year ago.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>And is there a plan for you to see him?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>No.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>No.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>What I've heard is that there's some stressors and some things that are hard for you in your life and you talk to me about the arguing that's happening between your mom and your grandma.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>That your dad has moved away.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>That you're not always in the right clothes and you have to fix some of your meals.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>And that you're not always feeling loved and special.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>But you've also told me that nobody's hurting you in a physical or in a verbal or sexual way.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>No.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Nobody's saying mean things to you.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>That you're not worried about your mom emotionally and that she's not worried about her all the time, struggling more emotionally.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>And that nobody you know is in prison or has been in prison.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>No.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>And you don't have any concerns about drugs or drinking or in your home.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Sam, do you think some of those stressors are what's making it hard for you at school?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>I think so.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Probably, yeah.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Yeah.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Why do you think that might be?</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>Maybe because I'm thinking about that and then I'm not thinking about what I'm doing at the moment and then I don't get very much.</div>
+                
+                <div class="bubble patient"><b>Patient</b><br>I don't get a lot done.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Yeah, that makes a lot of sense, Sam.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>That when things are stressful at home that kids have trouble concentrating and it affects them at school.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>So I'm going to talk to your mom more and we're going to try and figure out a way that I can help you and your mom with some of that stuff.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Okay?</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>So thanks for coming in.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Dr. Lawson's interview with Sam confirms that his ACE score is 3 as he endorses loss of a parent due to divorce, physical neglect and also a sense of emotional deprivation.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>So we know that Sam is at elevated risk for a host of physical and mental illnesses beginning in adolescence that could persist throughout his life.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>But Dr. Lawson's now in a position to meet again with Sam and his mother and collaboratively develop a focused and evidence-based intervention plan that should help change Sam's lifetime health trajectory.</div>
+                
+                <div class="bubble therapist"><b>Therapist</b><br>Clinicians can visit the online trauma toolkit website for a list of resources on these evidence-based interventions which have been shown to be helpful for children like Sam and their families.</div>
+                
+    </div>
+</body>
+</html>
